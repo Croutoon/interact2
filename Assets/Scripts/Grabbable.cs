@@ -12,7 +12,6 @@ public class Grabbable : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        grabPos = GameObject.Find("GrabPosition").transform;
     }
 
     // Update is called once per frame
